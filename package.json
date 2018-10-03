@@ -1,0 +1,40 @@
+{
+	"name": "fcc_issue_tracker",
+	"version": "0.0.1",
+	"description": "What am I about?",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"chai": "^3.5.0",
+		"chai-http": "^3.0.0",
+		"cors": "^2.8.1",
+		"dotenv": "^6.0.0",
+		"express": "^4.14.0",
+		"helmet": "^3.1.0",
+		"mocha": "^3.2.0",
+		"mongodb": "^2.2.16",
+		"zombie": "^5.0.5"
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/yapanss/fcc_issueTrack.git"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"nock": "^10.0.0",
+		"proxyquire": "^2.1.0",
+		"rewire": "^4.0.1",
+		"sinon": "^6.3.4"
+	}
+}
